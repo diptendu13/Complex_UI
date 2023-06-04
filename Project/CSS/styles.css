@@ -1,0 +1,39 @@
+.custom-attr{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.outer-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.outer{
+    height: 700px;
+    margin: 5px;
+}
+.outer img{
+    height: 100%;
+    width: 100%;
+}
+.inner{
+    height: 350px;
+    padding: 4px;
+}
+.inner img{
+    height: 100%;
+    width: 100%;
+}
+.inner-1{
+    padding-left: 0px;
+}
+.inner-2{
+    padding-right: 0px;
+}
+.common-top{
+    padding-top: 0px;
+}
+.common-bottom{
+    padding-bottom: 0px;
+}
+.html{
+    scroll-behavior: smooth;
+}
